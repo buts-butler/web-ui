@@ -14,28 +14,15 @@ class Profile extends React.Component {
       <div>
         <section className="text-center">
           <div className="container">
-            <img
-              src={pathPrefix + '/img/full_logo.png'}
-              alt="umee"
-              className="rounded-circle mx-auto d-block"
-              width="400px"
-            />
-            {/* <h1>Umee</h1>
-            <p className="lead text-muted">Be with friends.</p> 
-            <div>
-              <a
-                ref="twButton"
-                href="https://twitter.com/jaxx2104"
-                className="twitter-follow-button"
-                data-show-count="false"
-              >
-                Follow @jaxx2104
-              </a>
-            </div>*/}
+            <h1 className="display-3">Be with your friends</h1>
+            <p className="lead">
+              Scheduling plans with others can be difficult.<br /> Umee makes it
+              easier to stay closer to those you care about.
+            </p>
           </div>
         </section>
 
-        <section id="features" className="bg-primary text-white text-center">
+        {/* <section id="features" className="bg-primary text-white text-center">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -266,7 +253,7 @@ class Profile extends React.Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     )
   }

@@ -8,10 +8,14 @@ class SiteNavi extends React.Component {
       <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row bg-primary">
         <div className="container">
           <Link className="text-center" to="/">
-            <h1 className="navbar-brand mb-0">{title}</h1>
+            <img
+              height="40px"
+              className="navbar-brand mb-0"
+              src="img/umee.png"
+            />
           </Link>
-          <div className="navbar-nav-scroll">
-            <ul className="navbar-nav bd-navbar-nav flex-row">
+          <div className="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            {/* <ul className="navbar-nav bd-navbar-nav flex-row">
               <li
                 className={
                   location.pathname === '/' ? 'nav-item active' : 'nav-item'
@@ -37,9 +41,8 @@ class SiteNavi extends React.Component {
                   Blog
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
-          <div className="navbar-nav flex-row ml-md-auto d-none d-md-flex" />
         </div>
       </nav>
     )
